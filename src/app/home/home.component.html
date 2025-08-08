@@ -12,7 +12,13 @@
                 <h2>Last Project</h2>
                 <h4>{{featuredProject.name}}</h4>
                 <p>The project is deeply inspired by classic Japanese horror — from the unsettling world of Junji Ito’s manga, to iconic films like “The Ring” and “Ju-On: The Grudge”. My goal was to capture that chilling atmosphere through hand-drawn visuals and interactive design. Every aspect — from the UI layout to the artwork — was designed and developed by me. While modern web technologies power the site, it s the emotional tone and visual storytelling that were at the heart of the process. If you're a recruiter, horror enthusiast, or someone who appreciates dark, unique aesthetics — this is the project that best represents the fusion of my artistic and technical skills. Stack Angular.</p>
-                <a href="https://creep-corner.vercel.app/">Link to project</a>
+                <a href="https://creep-corner.vercel.app/"
+                class="btn btn-primary btn-lg d-inline-flex align-items-center gap-2"
+                style="margin-bottom: 15px;"
+                target="_blank" rel="noopener">
+                 <i class="bi bi-box-arrow-up-right"></i>
+                  Link to project
+                </a>
             </div>
             <carousel [interval]="0">
                 <slide *ngFor="let picture of featuredProject.pictures">
