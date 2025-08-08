@@ -8,3 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Damian Zawadzki - Portfolio App';
 }
+
+// https://www.youtube.com/watch?v=tQQ_zRKC5OE&list=PLN0Th-4WgKrUVQlqa14mUDeymTW1luznW&index=15&ab_channel=SoftwareEngineeringSkills
