@@ -1,21 +1,3 @@
-.container {
-    max-width: 1140px;
-}
-
-.slide-wrapper {
-  width: 100%;
-  max-height: 500px; /* wysokość, przy której chcesz uciąć dół */
-  overflow: hidden;
-}
-
-/* Obrazek wypełnia szerokość i przycina się od dołu */
-.slide-wrapper img {
-  width: 100%;
-  height: auto;
-  object-fit: cover; /* zachowuje proporcje, ale przytnie nadmiar */
-  display: block;
-}
-
 .tag {
     padding: 0 20px;
     height: 30px;
@@ -60,4 +42,3 @@
     background-color: rgb(64, 224, 208);
     color: rgb(255, 127, 80);
 }
-

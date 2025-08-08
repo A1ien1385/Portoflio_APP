@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg shadow m-1">
+            <div class="text-center">
+                <h2>About Me</h2>
+                <img src="../../assets/photo.jpg" alt="profile picture" width="256" height="256" class="rounded-circle">
+                <p>Since childhood, I ve plunged into the dark realms of Asian horror – from video games and haunting novels to the nightmarish manga of Junji Ito. I craft unique visuals that fuse gritty realism with dreamlike surrealism, and by night I’m a web developer who constantly hones his skills, exploring the latest front- and back-end technologies.</p>
+            </div>
+        </div>
+        <div class="col-lg shadow m-1">
+            <div class="text-center">
+                <h2>Last Project</h2>
+                <h4>{{featuredProject.name}}</h4>
+                <p>The project is deeply inspired by classic Japanese horror — from the unsettling world of Junji Ito’s manga, to iconic films like “The Ring” and “Ju-On: The Grudge”. My goal was to capture that chilling atmosphere through hand-drawn visuals and interactive design. Every aspect — from the UI layout to the artwork — was designed and developed by me. While modern web technologies power the site, it s the emotional tone and visual storytelling that were at the heart of the process. If you're a recruiter, horror enthusiast, or someone who appreciates dark, unique aesthetics — this is the project that best represents the fusion of my artistic and technical skills. Stack Angular.</p>
+                <a href="https://creep-corner.vercel.app/">Link to project</a>
+            </div>
+            <carousel [interval]="0">
+                <slide *ngFor="let picture of featuredProject.pictures">
+                  <div class="slide-wrapper">
+                   <img [src]="picture" alt="slide" />
+                 </div>
+                 </slide>
+             </carousel>
+        </div>
+    </div>
+</div>
+
+<!-- https://www.youtube.com/watch?v=Ha-B0ufs1nc&list=PLN0Th-4WgKrUVQlqa14mUDeymTW1luznW&index=12&ab_channel=SoftwareEngineeringSkills -->
+ <!-- https://ng-recipe-book-5442f.web.app/auth -->
+   <!-- https://creep-corner.vercel.app/ -->
+    <!-- https://main.d37ydcn4d3jte7.amplifyapp.com/ -->
+     <!-- https://drive.google.com/file/d/11tXi3OWWMw1CJfYuIixGnBw4uWHjOM9Z/view?usp=sharing -->
